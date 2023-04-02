@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-product-preview-card-component-mqsfrnqjQU)
 - Live Site URL: [Live site](https://a-costas.github.io/FrontendMentor-Product-Preview-Card/)
 
 ## My process

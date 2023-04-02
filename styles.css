@@ -1,3 +1,17 @@
+/* CSS Reset */
+* {
+  margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
 :root {
   --Cream: hsl(30, 38%, 92%);
   --Aurometal-Saurus: hsl(228, 12%, 48%);
@@ -7,26 +21,6 @@
   --font-family-primary: "Fraunces", serif;
   --font-family-secondary: "Montserrat", sans-serif;
 }
-
-/* @media only screen and (max-width: 670px) {
-  .card {
-    margin: 1.75rem 1rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 15rem 1fr;
-    max-width: 615px;
-    /* height: 100%; */
-/* } */
-/* .aside-image-desktop {
-    display: none;
-  }
-  .aside-image-mobile {
-    height: 100%;
-    width: 100%;
-    display: block;
-  }
-} */
-/* */
 
 body {
   min-height: 100vh;
@@ -42,20 +36,10 @@ body {
   width: 100%;
 }
 
-/* .card {
-  width: 600px;
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  grid-template-rows: 450px;
-  border-radius: 0.625rem;
-  overflow: hidden;
-} */
-
 .card {
   margin: 1.75rem 1rem;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 15rem 1fr;
   border-radius: 0.625rem;
   overflow: hidden;
 }
@@ -72,16 +56,13 @@ body {
   font-size: 0.75rem;
   line-height: 0.9144rem;
   letter-spacing: 0.3125rem;
-  margin: 0;
   margin-bottom: 1.25rem;
 }
 
-/* Overriding built in text tag margins (margin: 0) / CSS Reset */
 .product-name {
   font-family: var(--font-family-primary);
   font-size: 2rem;
   line-height: 2rem;
-  margin: 0;
   margin-bottom: 1.5rem;
 }
 
@@ -90,7 +71,6 @@ body {
   font-size: 0.875rem;
   line-height: 1.4375rem;
   color: var(--Aurometal-Saurus);
-  margin: 0;
   margin-bottom: 1.8125rem;
 }
 
@@ -149,7 +129,6 @@ button:hover {
     width: 600px;
     display: grid;
     grid-template-columns: 300px 1fr;
-    grid-template-rows: 450px;
     border-radius: 0.625rem;
     overflow: hidden;
   }
